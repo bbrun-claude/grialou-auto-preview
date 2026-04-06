@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Grialou Automobiles — Garage auto à Aubin (12)</title>
+<meta name="description" content="Grialou Automobiles à Aubin. Mécanique générale, entretien, réparation et vente de véhicules d'occasion. Garage toutes marques dans l'Aveyron.">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;color:#1e293b;line-height:1.6}
+a{color:inherit;text-decoration:none}
+
+header{background:#1b2838;color:#fff;padding:1rem 2rem;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap}
+.logo{font-size:1.5rem;font-weight:700;letter-spacing:1px}
+.logo span{color:#f59e0b}
+nav a{color:#cbd5e1;margin-left:1.5rem;font-size:.95rem;transition:color .2s}
+nav a:hover{color:#f59e0b}
+
+.hero{background:linear-gradient(135deg,#1b2838 0%,#2d4356 100%);color:#fff;padding:5rem 2rem;text-align:center}
+.hero h1{font-size:2.4rem;margin-bottom:1rem;line-height:1.2}
+.hero p{font-size:1.15rem;max-width:600px;margin:0 auto 2rem;opacity:.9}
+.btn{display:inline-block;background:#f59e0b;color:#1b2838;padding:.85rem 2rem;border-radius:6px;font-weight:600;font-size:1rem;transition:background .2s}
+.btn:hover{background:#d97706}
+
+section{padding:4rem 2rem;max-width:1100px;margin:0 auto}
+h2{font-size:1.8rem;color:#1b2838;margin-bottom:2rem;text-align:center}
+.services{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:2rem;margin-top:2rem}
+.card{background:#fff;border:1px solid #e2e8f0;border-radius:10px;padding:2rem;text-align:center;transition:box-shadow .3s}
+.card:hover{box-shadow:0 8px 25px rgba(0,0,0,.1)}
+.card .icon{font-size:2.5rem;margin-bottom:1rem}
+.card h3{color:#1b2838;margin-bottom:.75rem;font-size:1.2rem}
+.card p{color:#64748b;font-size:.95rem}
+
+.bg-light{background:#f8fafc}
+.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:3rem;align-items:center}
+.about-grid ul{list-style:none;margin-top:1rem}
+.about-grid li{padding:.5rem 0;padding-left:1.5rem;position:relative;color:#475569}
+.about-grid li::before{content:"✓";position:absolute;left:0;color:#f59e0b;font-weight:700}
+.stat-box{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem;text-align:center;margin-top:2rem}
+.stat-box div{background:#fff;padding:1.5rem;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,.05)}
+.stat-box strong{display:block;font-size:2rem;color:#f59e0b}
+
+.contact-section{background:#1b2838;color:#fff;padding:4rem 2rem;text-align:center}
+.contact-section h2{color:#fff}
+.contact-info{display:flex;justify-content:center;gap:3rem;flex-wrap:wrap;margin-top:2rem}
+.contact-info div{text-align:center}
+.contact-info .label{font-size:.85rem;color:#94a3b8;text-transform:uppercase;letter-spacing:1px;margin-bottom:.25rem}
+
+footer{background:#111827;color:#94a3b8;text-align:center;padding:1.5rem;font-size:.85rem}
+
+@media(max-width:768px){
+.hero h1{font-size:1.8rem}
+.hero{padding:3rem 1.5rem}
+.about-grid{grid-template-columns:1fr}
+.stat-box{grid-template-columns:1fr}
+.contact-info{flex-direction:column;gap:1.5rem}
+header{justify-content:center;text-align:center}
+nav{margin-top:.5rem}
+}
+</style>
+</head>
+<body>
+
+<header>
+<div class="logo">Grialou <span>Automobiles</span></div>
+<nav>
+<a href="#services">Services</a>
+<a href="#apropos">À propos</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
+
+<section class="hero">
+<h1>Votre garage automobile à Aubin</h1>
+<p>Mécanique générale, entretien et vente de véhicules d'occasion. Un professionnel de confiance au service des automobilistes du bassin de Decazeville.</p>
+<a href="#contact" class="btn">Nous contacter</a>
+</section>
+
+<section id="services">
+<h2>Nos prestations</h2>
+<div class="services">
+<div class="card">
+<div class="icon">🔧</div>
+<h3>Mécanique générale</h3>
+<p>Réparation et remise en état de votre véhicule : moteur, embrayage, distribution, transmission. Diagnostic précis et intervention rapide.</p>
+</div>
+<div class="card">
+<div class="icon">🛞</div>
+<h3>Entretien et révision</h3>
+<p>Vidange, changement de filtres, freins, pneumatiques, amortisseurs. Un entretien régulier pour rouler en toute sécurité.</p>
+</div>
+<div class="card">
+<div class="icon">🚗</div>
+<h3>Véhicules d'occasion</h3>
+<p>Sélection de véhicules d'occasion révisés et garantis. Conseils personnalisés pour trouver le véhicule adapté à vos besoins et à votre budget.</p>
+</div>
+<div class="card">
+<div class="icon">📋</div>
+<h3>Pré-contrôle technique</h3>
+<p>Vérification complète des points de contrôle. Remise en conformité si nécessaire pour un passage sans contre-visite.</p>
+</div>
+</div>
+</section>
+
+<section class="bg-light" id="apropos">
+<h2>Un garage de proximité dans l'Aveyron</h2>
+<div class="about-grid">
+<div>
+<p>Grialou Automobiles vous accueille à Aubin, au coeur du bassin de Decazeville. Notre engagement : un service de qualité, des tarifs justes et une relation de confiance avec chaque client.</p>
+<ul>
+<li>Toutes marques, tous modèles</li>
+<li>Devis gratuit et transparent</li>
+<li>Pièces de qualité garantie</li>
+<li>Service rapide et réactif</li>
+<li>Proximité et confiance</li>
+</ul>
+</div>
+<div>
+<div class="stat-box">
+<div><strong>12</strong>Aveyron</div>
+<div><strong>Pro</strong>Toutes marques</div>
+<div><strong>100%</strong>Devis gratuit</div>
+</div>
+</div>
+</div>
+</section>
+
+<section>
+<h2>Zone d'intervention</h2>
+<p style="text-align:center;color:#64748b;max-width:700px;margin:0 auto">Nous accueillons les automobilistes d'Aubin, Decazeville, Cransac, Firmi, Viviez, Capdenac-Gare et de tout le bassin aveyronnais.</p>
+</section>
+
+<section class="contact-section" id="contact">
+<h2>Contactez-nous</h2>
+<p style="opacity:.85;margin-bottom:1rem">Besoin d'un rendez-vous, d'un devis ou d'un renseignement ?</p>
+<div class="contact-info">
+<div><div class="label">Email</div><a href="mailto:contact@grialouauto.fr" style="color:#f59e0b">contact@grialouauto.fr</a></div>
+<div><div class="label">Adresse</div>Aubin (12110)</div>
+<div><div class="label">Secteur</div>Bassin de Decazeville — Aveyron</div>
+</div>
+</section>
+
+<footer>
+<p>&copy; 2026 Grialou Automobiles — Aubin (12). Tous droits réservés.</p>
+</footer>
+
+</body>
+</html>
